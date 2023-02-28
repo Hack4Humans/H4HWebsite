@@ -18,7 +18,10 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className='brand-container'><img src={ladybug} alt="ladybug" height="35" width="45"></img><a className='brand-text' href='/'>Ladybug Development Club</a></div>
+      <div className='brand-container'>
+        {/* <img src={ladybug} alt="ladybug" height="35" width="45"></img> */}
+        <a className='brand-text' href='/'>Ladybug Development Club</a>
+      </div>
       
       <div onClick={toggleCollapse} className='collapseButton'>
         <span />

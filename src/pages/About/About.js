@@ -18,17 +18,21 @@ export default function About() {
     //join page also requires overhaul (implement a shrink/cover of images as page size shrinks)
     return (
         <MainLayout>
+
             <AboutPage>
                 <Title>About Us</Title>
-                <MajorText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                <MajorText>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem 
                     ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua</MajorText>
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </MajorText>
                 <LineContainer>
                     <img src={Line} alt="scroll line" />
                     <MinorText>Scroll for more</MinorText>
                 </LineContainer>
             </AboutPage>
+
             <ProjectPage>
                 <ProjectLeft>
                     <SectionTitle>We make something FUN</SectionTitle>
@@ -68,6 +72,7 @@ export default function About() {
                     </ImageContainer>        
                 </ProjectRight>
             </ProjectPage>
+
             <JoinPage>
                 <HalfPage>
                     <ImageContainer2>
@@ -85,6 +90,7 @@ export default function About() {
                         <ButtonFilled>Join the mailing list</ButtonFilled>
                 </HalfPage>
             </JoinPage>
+
             <SectionPage>
                 <SectionTitle2>Support Our Club!</SectionTitle2>
                 <SectionSubTitle>We are still seeking donations</SectionSubTitle>
@@ -107,6 +113,7 @@ export default function About() {
                     <ButtonClear>Contact Treasurer</ButtonClear>
                 </ButtonContainer>
             </SectionPage>
+            
             <Footer/>
         </MainLayout>
     );

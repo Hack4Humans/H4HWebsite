@@ -3,12 +3,11 @@ import styled from "styled-components";
 export const AboutPage = styled.div`
     height: 100vh;
     width: 100vw;
-    background-color: #F5F5F5;
+    background-color: #FFFEFB;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: flex-end;
-    flex-wrap: wrap;
 `;
 
 export const Title = styled.p`
@@ -16,20 +15,18 @@ export const Title = styled.p`
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
-    line-height: 110px;
-    padding-top: 10%;
-    margin-right: 10%;
+    text-align: right;
+    margin: 0px 160px 0px 0px;
 `;
 
 export const MajorText = styled.p`
-    width: 70%;
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 300;
+    font-weight: lighter;
     font-size: 25px;
-    line-height: 30px;
     text-align: right;
-    margin-right: 10%;
+    width: 750px;
+    margin: 0px 160px 0px 0px;
 `;
 
 export const MinorText = styled.p`
@@ -55,9 +52,9 @@ export const LineContainer = styled.div`
 `;
 
 export const ProjectPage = styled.div`
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
-    background-color: #F5F5F5;
+    background-color: #FFFEFB;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -68,7 +65,7 @@ export const ProjectPage = styled.div`
 export const ProjectLeft = styled.div`
     height: 90vh;
     width: 60vw;
-    background-color: #F5F5F5;
+    background-color: #FFFEFB;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,13 +165,13 @@ export const BackgroundContainer = styled.div`
     margin-right: 15vw;
     margin-top: 15vh;
 
-    background-color: beige;
+    background-color: #F9F7F1;
 `;
 
 export const JoinPage = styled.div`
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
-    background-color: beige;
+    background-color: #F9F7F1;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -212,9 +209,9 @@ export const ButtonFilled = styled.button`
 `;
 
 export const SectionPage = styled.div`
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
-    background-color: #F5F5F5;
+    background-color: #FFFEFB;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,6 +247,7 @@ export const ButtonContainer = styled.div`
     justify-content: Center;
     align-items: Center;
     flex-wrap: nowrap;
+    column-gap: 30px;
 `;
 
 export const ButtonClear = styled.button`
@@ -260,6 +258,7 @@ export const ButtonClear = styled.button`
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    border: none;
     border-radius: 10px;
     color: #161313;
     align-items: center;
