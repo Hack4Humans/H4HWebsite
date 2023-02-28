@@ -21,7 +21,7 @@ const PersonCard = ({ name, role, twitter, linkedin, instagram, image }) => {
         <p>{role}</p>
         <div className='cardSocialContainer'>
           {twitter && <a href={twitter} ><img className='cardSocialImg' src={Twitter} alt="twitter" /></a>}
-          {linkedin && <a href={linkedin} ><img className='cardSocialImg' src={LinkedIn} alt="linkedin" /></a>}
+          {linkedin && <a href={linkedin} ><img className='cardSocialImg' src={LinkedIn} alt="linkedin" target="_blank"/></a>}
           {instagram && <a href={instagram}><img className='cardSocialImg' src={Instagram} alt="instagram" /></a>}
         </div>
         
@@ -39,7 +39,7 @@ const Leadership = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
       </div>
       <div className='cardsDiv'>
-        <PersonCard name="Kenzy Kim" role="President" image={President} linkedin="https://www.linkedin.com/in/kenzykim/" />
+        <PersonCard name="Kenzy Kim" role="President" image={President} linkedin="https://www.linkedin.com/in/kenzykim/"/>
         <PersonCard name="Erica Mclean" role="Vice President" image={VicePresident} twitter="[link]" linkedin="[link]" instagram="[link]" />
         <PersonCard name="Bilal Lucas" role="Treasurer" image={Treasurer} twitter="[link]" linkedin="[link]" instagram="[link]" />
         <PersonCard name="Saif Black" role="Event Planner" image={EventPlanner} twitter="[link]" linkedin="[link]" instagram="[link]" />

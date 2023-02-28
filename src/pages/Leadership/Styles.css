@@ -1,10 +1,12 @@
 
-/* .leadershipContainer{
-    background-color: red;
-} */
+.leadershipContainer{
+    background-color: #fffefb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .leadershipHeadingDiv{
-    /* background-color: yellow; */
     margin-top: 160px;
     margin-left: 12.5%;
     margin-right: 12.5%;

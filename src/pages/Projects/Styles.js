@@ -96,7 +96,7 @@ export const ProjectTab = styled.div`
     background-color: rgba(63, 63, 63, 0.4);
 `;
 
-export const ContactBtn = styled.button`
+export const ContactBtn = styled.a`
     border: none;
     border-radius: 10px;
     background: #383838;
@@ -107,6 +107,8 @@ export const ContactBtn = styled.button`
     line-height: 20px;
     text-align: center;
     color: #FFFEFB;
+    text-decoration: none;
+    color: white;
     padding: 15px 40px 15px 40px;
 `;
 
