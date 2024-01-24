@@ -1,6 +1,7 @@
 {
   "name": "ladybug_website",
   "version": "0.1.0",
+  "homepage": "https://ladybug.github.io/LadybugWebsite",
   "private": true,
   "dependencies": {
     "@icon-park/react": "^1.4.2",
@@ -42,6 +43,5 @@
   },
   "devDependencies": {
     "react-router-dom": "^6.21.3"
-  },
-  "homepage": "https://ladybug.github.io/"
+  }
 }
