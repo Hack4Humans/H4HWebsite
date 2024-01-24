@@ -1,16 +1,14 @@
-
-.leadershipContainer{
+.leadershipContainer {
     background-color: #fffefb;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.leadershipHeadingDiv{
+.leadershipHeadingDiv {
     margin-top: 160px;
     margin-left: 12.5%;
     margin-right: 12.5%;
-    
 }
 
 .leadershipHeadingDiv h3 {
@@ -35,16 +33,15 @@
     color: #161313;
 }
 
-.cardsDiv{
-    /* background-color: white; */
+.cardsDiv {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 130px;
     margin-bottom: 120px;
-    margin-right: 8%;
-    margin-left: 10%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
     min-height: 700px;
 }
 
@@ -55,7 +52,7 @@
     height: 200px;
 }
 
-.personImgContainer{
+.personImgContainer {
     height: 198px;
     width: 200px;
     border: 1px solid black;
@@ -66,12 +63,13 @@
     display: flex;
 }
 
-.personInfoContainer{
+.personInfoContainer {
     height: 198px;
     width: 50%;
-    /* background-color: yellow; */
     margin-left: 30px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .personCard h1{
@@ -89,11 +87,12 @@
     font-size: 20px;
 }
 
-.cardSocialContainer {
-    margin-top: 40%;
-}
-
 .cardSocialImg{
     margin-right: 10px;
 }
 
+.headshot {
+    height: 198px;
+    width: 200px;
+    border-radius: 4px;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Styles.css';
-import ladybug from "../../images/ladybugImg.png";
+// import ladybug from "../../images/ladybugImg.png";
 import { NavLink } from 'react-router-dom';
 
 

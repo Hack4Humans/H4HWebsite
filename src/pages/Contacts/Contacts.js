@@ -13,22 +13,22 @@ export default function Catch() {
 
                     <LinkContainter>
                         <LinkText>LinkedIn</LinkText>
-                        <a href="/"><img src={Vector}/></a>
+                        <a href="https://www.linkedin.com/company/ladybug-development/about/"><img src={Vector} alt=""/></a>
                     </LinkContainter>
 
                     <LinkContainter>
                         <LinkText>Instagram</LinkText>
-                        <a href="/"><img src={Vector}/></a>
+                        <a href="/"><img src={Vector} alt=""/></a>
                     </LinkContainter>
 
                     <LinkContainter>
                         <LinkText>OrgCentral</LinkText>
-                        <a href="/"><img src={Vector}/></a>
+                        <a href="/https://orgcentral.psu.edu/organization/ladybugdevclub"><img src={Vector} alt=""/></a>
                     </LinkContainter>
 
                     <LinkContainerB>
-                        <LinkText>Email</LinkText>
-                        <a href="/"><img src={Vector}/></a>
+                        <LinkText>Email (President)</LinkText>
+                        <a href="mailto:jbj5347@psu.edu"><img src={Vector} alt=""/></a>
                     </LinkContainerB>
             </MainPage>
             <Footer/>

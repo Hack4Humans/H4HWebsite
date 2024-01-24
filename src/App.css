@@ -1,7 +1,7 @@
 .App {
-    cursor: url("./images/LadybugCursor.svg"), auto;
+    cursor: url("./images/Cursor\ Image/LadybugCursor.svg"), auto;
 }
 
 a {
-    cursor: url("./images/LadybugCursor_Hover.svg"), auto;
+    cursor: url("./images/Cursor\ Image/LadybugCursor_Hover.svg"), auto;
 }
