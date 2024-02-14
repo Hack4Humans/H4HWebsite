@@ -22,10 +22,9 @@ export default function About() {
             <AboutPage>
                 <Title>About Us</Title>
                 <MajorText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem 
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                <div>Welcome to the Ladybug Development Club!</div> WE ARE a vibrant community passionate for computer 
+                science and programming. Our club is a melting pot of diverse talents, 
+                united by a shared love for technology and the drive to turn ideas into reality.
                 </MajorText>
                 <LineContainer>
                     <img src={Line} alt="scroll line" />
@@ -37,9 +36,7 @@ export default function About() {
                 <ProjectLeft>
                     <SectionTitle>We make something FUN</SectionTitle>
                     <SectionSubTitle>Bring your fresh ideas to the table</SectionSubTitle>
-                    <SectionContent>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                        Velit officia consequat duis enim velit mollit. 
-                        Exercitation veniam consequat sunt nostrud amet.</SectionContent>
+                    <SectionContent>We believe in the power of collaboration and creativity. We thrive in an environment where every challenge is an opportunity for growth. Our passion is the driving force behind every project, ensuring that each task is approached with precision, dedication, and a touch of uniqueness.</SectionContent>
                     <HalfSubSection>
                         <SubIdea>
                             <img src={LightBulb} alt="lightbulb" />
@@ -81,12 +78,8 @@ export default function About() {
                 </HalfPage>
                 <HalfPage>
                     <SectionTitle>How to Join the Club</SectionTitle>
-                    <SectionSubTitle>Led by women, open to everyone</SectionSubTitle>
-                    <SectionContent>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                        Velit officia consequat duis enim velit mollit. 
-                        Exercitation veniam consequat sunt nostrud amet.</SectionContent>
+                    <SectionSubTitle>Open to everyone and fuled by diversity</SectionSubTitle>
+                    <SectionContent>Our club embraces individuals from varied backgrounds, recognizing that diversity fuels innovation. We're committed to fostering a collaborative space where passion for technology meets a drive for creativity. Here, your ideas are celebrated, your skills are refined, and your contributions make a difference. Join us in shaping the future through learning, growth, and collective creativity.</SectionContent>
                         <ButtonFilled>Join the mailing list</ButtonFilled>
                 </HalfPage>
             </JoinPage>
@@ -94,20 +87,8 @@ export default function About() {
             <SectionPage>
                 <SectionTitle2>Support Our Club!</SectionTitle2>
                 <SectionSubTitle>We are still seeking donations</SectionSubTitle>
-                <SectionContent2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Pretium fusce id velit ut tortor pretium viverra suspendisse. 
-                    Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. 
-                    Ultricies leo integer malesuada nunc. Dapibus ultrices in iaculis nunc.
-                    Mauris pharetra et ultrices neque ornare aenean euismod elementum. 
-                    Non odio euismod lacinia at quis risus. Sit amet aliquam id diam maecenas. 
-                    Elementum pulvinar etiam non quam lacus. 
-                    Nulla porttitor massa id neque aliquam vestibulum morbi.<br/><br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Aliquam sem et tortor consequat id. 
-                    Mattis aliquam faucibus purus in massa tempor nec feugiat nisl. 
-                    Tellus orci ac auctor augue. Mauris ultrices eros in cursus turpis massa.</SectionContent2>
+                <SectionContent2>Join us in making a difference! Your support plays a vital role in empowering our club's mission to foster innovation and learning in the realm of technology. Every contribution, big or small, helps us provide a rich environment for our members to thrive, offering workshops, resources, and collaborative projects. <br/>Your generosity enables us to expand our reach, nurture talent, and build a community where ideas flourish and future tech leaders grow. Be a part of our journey towards creating a brighter, tech-driven future by supporting our club today. Together, we can achieve remarkable things!<br/>
+                    </SectionContent2>
                 <ButtonContainer>
                     <ButtonClear>Contact President</ButtonClear>
                     <ButtonClear>Contact Treasurer</ButtonClear>

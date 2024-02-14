@@ -17,7 +17,7 @@ export default function Footer() {
                 </SocialContainer>
                 <p>© 2022 by Ladybug Development Club</p>
                 <p>Designed by Kenzy Kim</p>
-                <p>Implemented by Kenzy Kim, Shibli Nomani, Oliver De Leon</p>
+                <p>Implemented by Kenzy Kim, Shibli Nomani, Oliver De Leon, Jay Jung</p>
             </ContentContainer>
         </Container>
     );

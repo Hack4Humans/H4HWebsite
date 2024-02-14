@@ -25,7 +25,7 @@ export const MajorText = styled.p`
     font-weight: lighter;
     font-size: 25px;
     text-align: right;
-    width: 750px;
+    width: 700px;
     margin: 0px 160px 0px 0px;
 `;
 

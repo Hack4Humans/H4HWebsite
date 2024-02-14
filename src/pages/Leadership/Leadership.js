@@ -35,7 +35,7 @@ const Leadership = () => {
     <div className='leadershipContainer'>
       <div className='leadershipHeadingDiv'>
         <h3>Leadership</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+        <p>Leaders drive innovation, inclusivity, and collective growth.</p>
       </div>
       <div className='cardsDiv'>
         <PersonCard name="Jay Jung" role="President" image={President} linkedin="https://www.linkedin.com/in/juhwan-jung/"/>
