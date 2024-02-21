@@ -10,7 +10,7 @@ export default function Projects() {
             <TitlePage>
                 <Title>Projects</Title>
                 <SubTitle>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                We explore software development, AI, and web development, fostering innovation and collaboration in tech projects that impact real-world challenges.
                 </SubTitle>
                 <LineContainer>
                     <img src={Line} alt="scroll line" />
@@ -21,7 +21,7 @@ export default function Projects() {
             <OnGoingProjectPage>
                 <SectionTitle>On-going Projects</SectionTitle>
                 <SectionSubTitle>
-                    nisl nisi scelerisque eu ultrices vitae auctor eu augue ut
+                    As well as finished ones down below!
                 </SectionSubTitle>
                 <ProjectsContainer>
                     <ProjectTab>Club Promotion Website</ProjectTab>
